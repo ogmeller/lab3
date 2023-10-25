@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    const int num1 = 10;
+    long long num2 = 1;
+    for (int i = 1; i <= num1; i++)
+        num2 *= (i * (i + 1)) / 2;
+    cout << num2 << endl;
+    return 0;
+}

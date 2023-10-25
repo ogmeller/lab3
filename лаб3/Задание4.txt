@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+ 
+int main (){
+  
+setlocale (0, "");
+int count=0, count_summ=0, n=1;
+cout<<"введите цифры:"<<endl;
+while(n!=0){
+    cin>>n;
+    count+=1;
+    count_summ+=n;
+}
+cout<<"сумма чисел: "<<count-1;
+cout<<endl;
+cout<<"среднее арифмитическое: "<<count_summ/(count-1);
+return 0;
+}
